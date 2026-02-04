@@ -18,7 +18,7 @@
                 <label for="InputTelefone" class="form-label">Telefone</label>
                 <input type="telefone" class="form-control" id="Inputtelefone" name="telefone">
             </div>
-            <select class="form-select" aria-label="Default select example" name="periodo">
+            <select class="form-select" aria-label="Default select example" name="curso">
                 <option selected>Curso</option>
                 <option value="Ténico em Informática">Ténico em Informática</option>
                 <option value="Ténico em Computação Gráfica">Ténico em Computação Gráfica</option>
@@ -26,14 +26,14 @@
             </select>
             <div class="mb-3 form-check">
                 <h3>Cursos de Interesse</h3>
-                <input type="checkbox" class="form-check-input" id="checkTI" name="cursos[]" value="Manhã">
+                <input type="checkbox" class="form-check-input" id="checkTI" name="periodo[]" value="Manhã">
                 <label class="form-check-label" for="checkTI">Manhã</label><br>
-                <input type="checkbox" class="form-check-input" id="checkTCG" name="cursos[]" value="Tarde">
+                <input type="checkbox" class="form-check-input" id="checkTCG" name="periodo[]" value="Tarde">
                 <label class="form-check-label" for="checkTCG">Tarde</label><br>
-                <input type="checkbox" class="form-check-input" id="checkDesign" name="cursos[]" value="Noite">
+                <input type="checkbox" class="form-check-input" id="checkDesign" name="periodo[]" value="Noite">
                 <label class="form-check-label" for="checkDesign">Noite</label><br>
-                <input type="checkbox" class="form-check-input" id="checkDesign" name="cursos[]" value="Sábado(manhã)">
-                <label class="form-check-label" for="checkDesign">Sábado(manhã)</label><br>
+                <input type="checkbox" class="form-check-input" id="checkDesi" name="periodo[]" value="Sábado(manhã)">
+                <label class="form-check-label" for="checkDesi">Sábado(manhã)</label><br>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>

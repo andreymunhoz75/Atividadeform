@@ -21,10 +21,11 @@ echo "<span><strong>Obrigado por cadastrar seu interesse </strong><br>";
 echo "<span><strong>Nome: </strong>" . $nomeSeguro . "</span><br>";
 echo "<span><strong>Email: </strong>" . $emailSeguro . "</span><br>";
 echo "<span><strong>Telefone(s): </strong>" . $telefoneSeguro . "</span><br>";
+echo "<span><strong>Curso(s): </strong>" . $cursoSeguro . "</span><br>";
 
 
 if (isset($_POST["periodo"])) {
-    $cursos = implode (', ', array_filter($_POST["periodo"]));
+    $periodo = implode (', ', array_filter($_POST["periodo"]));
 
-    echo "<span><strong>Curso(s): </strong>" . $cursos . "</span><br>";
+    echo "<span><strong>Periodo(s): </strong>" . $periodo . "</span><br>";
 }
