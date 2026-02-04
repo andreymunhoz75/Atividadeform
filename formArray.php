@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="text-center">Formulário Exemplo</h1>
+            <h1 class="text-center">Cadastro de Interesse</h1>
         </div>
     </div>
     <div class="row">
@@ -19,7 +19,7 @@
                 <input type="telefone" class="form-control" id="Inputtelefone" name="telefone">
             </div>
             <select class="form-select" aria-label="Default select example" name="periodo">
-                <option selected>Período</option>
+                <option selected>Curso</option>
                 <option value="Ténico em Informática">Ténico em Informática</option>
                 <option value="Ténico em Computação Gráfica">Ténico em Computação Gráfica</option>
                 <option value="Ténico em Disign Gráfico">Ténico em Disign Gráfico</option>
@@ -32,6 +32,8 @@
                 <label class="form-check-label" for="checkTCG">Tarde</label><br>
                 <input type="checkbox" class="form-check-input" id="checkDesign" name="cursos[]" value="Noite">
                 <label class="form-check-label" for="checkDesign">Noite</label><br>
+                <input type="checkbox" class="form-check-input" id="checkDesign" name="cursos[]" value="Sábado(manhã)">
+                <label class="form-check-label" for="checkDesign">Sábado(manhã)</label><br>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
