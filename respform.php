@@ -17,14 +17,14 @@ $emailSeguro = htmlspecialchars($email,ENT_QUOTES, "UTF-8");
 $telefoneSeguro = htmlspecialchars($telefone,ENT_QUOTES, "UTF-8");
 $cursoSeguro = htmlspecialchars($curso,ENT_QUOTES, "UTF-8");
 
-echo "<span><strong>Obrigado por cadastrar seu interesse<br>";
+echo "<span><strong>Obrigado por cadastrar seu interesse </strong><br>";
 echo "<span><strong>Nome: </strong>" . $nomeSeguro . "</span><br>";
 echo "<span><strong>Email: </strong>" . $emailSeguro . "</span><br>";
 echo "<span><strong>Telefone(s): </strong>" . $telefoneSeguro . "</span><br>";
 
 
-if (isset($_POST["cursos"])) {
-    $cursos = implode (', ', array_filter($_POST["cursos"]));
+if (isset($_POST["periodo"])) {
+    $cursos = implode (', ', array_filter($_POST["periodo"]));
 
     echo "<span><strong>Curso(s): </strong>" . $cursos . "</span><br>";
 }
